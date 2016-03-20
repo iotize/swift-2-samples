@@ -22,8 +22,11 @@ class TestableExampleTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // KEY PART OF @testable IS THIS:
+        // The module has been imported WITHOUT needing to be included in the unit test target!
+        
+        let model = SomeModel()
+        XCTAssertEqual(model.calculateSomething(), 100)
     }
     
     func testPerformanceExample() {

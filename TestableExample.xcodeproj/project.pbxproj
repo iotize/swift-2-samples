@@ -13,6 +13,7 @@
 		945E7D851C9E250D0070AE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945E7D841C9E250D0070AE32 /* Assets.xcassets */; };
 		945E7D881C9E250D0070AE32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945E7D861C9E250D0070AE32 /* LaunchScreen.storyboard */; };
 		945E7D931C9E250D0070AE32 /* TestableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945E7D921C9E250D0070AE32 /* TestableExampleTests.swift */; };
+		945E7D9E1C9E25A00070AE32 /* SomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945E7D9D1C9E25A00070AE32 /* SomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		945E7D8E1C9E250D0070AE32 /* TestableExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestableExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		945E7D921C9E250D0070AE32 /* TestableExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableExampleTests.swift; sourceTree = "<group>"; };
 		945E7D941C9E250D0070AE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945E7D9D1C9E25A00070AE32 /* SomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				945E7D7D1C9E250D0070AE32 /* AppDelegate.swift */,
 				945E7D7F1C9E250D0070AE32 /* ViewController.swift */,
+				945E7D9D1C9E25A00070AE32 /* SomeModel.swift */,
 				945E7D811C9E250D0070AE32 /* Main.storyboard */,
 				945E7D841C9E250D0070AE32 /* Assets.xcassets */,
 				945E7D861C9E250D0070AE32 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				945E7D801C9E250D0070AE32 /* ViewController.swift in Sources */,
+				945E7D9E1C9E25A00070AE32 /* SomeModel.swift in Sources */,
 				945E7D7E1C9E250D0070AE32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
