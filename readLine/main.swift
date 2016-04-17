@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
+print("What's your favorite color?")
 
+if let colorReply = readLine() where !colorReply.isEmpty {
+    print("Your favorite color is: \(colorReply)")
+} else {
+    print("You didn't reply with a favorite color :(")
+}
